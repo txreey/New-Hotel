@@ -1,0 +1,1306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datausero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datausero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datausero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datausero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datatamuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datatamuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datatamuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datatamuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datareservasio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datareservasio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datareservasio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datareservasio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datakamaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datakamaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\datakamaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\datakamaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\dashboardowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\dashboardowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\dashboardowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\dashboardowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporantransaksio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporantransaksio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporantransaksio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporantransaksio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporankeuangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporankeuangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporankeuangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporankeuangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datakamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datakamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datakamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datakamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\laporantransaksia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporantransaksia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\laporantransaksia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporantransaksia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|c:\\users\\acer\\source\\repos\\pemesanan hotel terbaru\\pemesanan hotel terbaru\\admin\\laporankeuangan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporankeuangan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\laporankeuangan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporankeuangan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\laporankeuangan2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporankeuangan2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datatamua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datatamua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datatamua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datatamua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datareservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datareservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datareservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datareservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporankeuangan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporankeuangan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\laporantransaksio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\laporantransaksio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\tambahusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\tambahusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\editusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\editusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\dashboardowner.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\dashboardowner.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\modalpembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\modalpembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\transaksipembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\transaksipembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\modalpembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\modalpembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\transaksipembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\transaksipembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\tambahreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\tambahreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\tambahreservasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\tambahreservasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\tambahreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\tambahreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\laporantransaksir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\laporantransaksir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\laporantransaksir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\laporantransaksir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\datatamur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\datatamur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\datatamur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\datatamur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\datakamarr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\datakamarr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\datakamarr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\datakamarr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\dashboardadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\dashboardadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\laporantransaksia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\laporantransaksia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datareservasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datareservasi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\tambahusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\tambahusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\editusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\editusero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\editreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\editreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\modalpembayaran.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\modalpembayaran.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\editreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\editreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\editkamar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\editkamar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahkamar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahkamar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\editusero.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\editusero.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\owner\\tambahusero.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\owner\\tambahusero.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\tambahuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\tambahuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\edituser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\edituser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\resepsionis\\dashboardresepsionis.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\admin\\datakamara.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\admin\\datakamara.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\pemesanan hotel terbaru\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}|Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru.csproj|solutionrelative:pemesanan hotel terbaru\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataReservasiO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs [Design]*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:23:05.193Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataReservasiO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataReservasiO.cs*",
+              "ViewState": "AgIAALIAAAAAAAAAAAAQwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:44:55.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataTamuO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs [Design]*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:22:23.388Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataTamuO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataTamuO.cs*",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAQwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:46:06.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataUserO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs [Design]*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:55:27.007Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataUserO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataUserO.cs*",
+              "ViewState": "AgIAANYAAAAAAAAAAAAQwOsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:46:48.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataKamarO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs*",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAUwCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:27:30.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataKamarO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs [Design]*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DataKamarO.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:22:06.463Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardOwner.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs*",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAQwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:04:42.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardOwner.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs [Design]*",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T02:36:15.592Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LaporanTransaksiO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAAYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:48:29.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LaporanTransaksiO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:23:24.923Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LaporanKeuangan.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:47:36.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LaporanKeuangan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:23:44.633Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataKamarA.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAqwC8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:39:11.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataKamarA.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:49:16.295Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:51:15.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LaporanTransaksiA.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAiwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:48:15.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:23:26.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LaporanTransaksiA.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:14:37.003Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LaporanKeuangan2.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAUwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:59:52.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LaporanKeuangan2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:57:20.134Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LaporanKeuangan2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanKeuangan2.Designer.cs",
+              "ViewState": "AgIAAJABAAAAAAAAAAAAwKEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:09:41.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DataUser.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:47:31.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataUser.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:07:19.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DataTamuA.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:45:59.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DataTamuA.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataTamuA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:31:36.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DataReservasi.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:44:54.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DataReservasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:30:28.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DashboardAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:34:41.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:02:24.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LaporanKeuangan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanKeuangan.Designer.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAAwIoBAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:42:10.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LaporanTransaksiO.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\LaporanTransaksiO.Designer.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAwCUBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:15:27.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DashboardResepsionis.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:49:58.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DashboardResepsionis.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:53:34.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TambahUserO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T03:56:26.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EditUserO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T03:56:38.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DashboardOwner.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\DashboardOwner.Designer.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAuwOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:25:40.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Reservasi.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAmwLEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:43:25.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ModalPembayaran.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAQwHYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:23:14.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ModalPembayaran.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:23:06.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TransaksiPembayaran.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:51:49.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TambahReservasi.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAQwDUBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:07:50.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TransaksiPembayaran.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\TransaksiPembayaran.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:41:14.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TambahReservasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:52:45.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LaporanTransaksiR.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAAMwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:42:11.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Reservasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\Reservasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:48:12.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TambahReservasi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\TambahReservasi.Designer.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAAwPgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:32:47.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LaporanTransaksiR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\LaporanTransaksiR.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:52:17.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DataTamuR.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:40:57.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DataTamuR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DataTamuR.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:51:04.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DataKamarR.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:38:40.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DataKamarR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DataKamarR.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:51:30.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DashboardAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DashboardAdmin.Designer.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAlwD8BAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:33:18.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Koneksi.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Koneksi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Koneksi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Koneksi.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Koneksi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:28:29.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LaporanTransaksiA.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\LaporanTransaksiA.Designer.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAwCgBAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:23:03.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DataReservasi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataReservasi.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataReservasi.Designer.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAlwHcBAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:28:17.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TambahUserO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:23:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EditUserO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:23:10.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EditReservasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:53:04.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ModalPembayaran.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\ModalPembayaran.Designer.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAwM4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T01:45:58.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "EditReservasi.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\EditReservasi.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:08:51.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EditKamar.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:15:25.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EditKamar.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditKamar.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAQwJcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:38:05.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TambahKamar.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:37:23.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "TambahKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:50:52.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TambahKamar.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahKamar.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahKamar.Designer.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAlwAsBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:18:59.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "EditUserO.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\EditUserO.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\EditUserO.Designer.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAlwPoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:27:30.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "TambahUserO.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Owner\\TambahUserO.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Owner\\TambahUserO.Designer.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAlwM8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:30:27.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "EditUser.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditUser.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:38:26.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "TambahUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.Designer.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAlwHAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:55:09.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Program.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Program.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:12:47.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TambahUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:00:02.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "TambahUser.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\TambahUser.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:53:06.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "EditUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\EditUser.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\EditUser.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\EditUser.Designer.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAawG0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:45:24.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "DashboardResepsionis.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Resepsionis\\DashboardResepsionis.Designer.cs",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAwKcBAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:15:58.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DataKamarA.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Admin\\DataKamarA.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Admin\\DataKamarA.Designer.cs",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAAwIkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:40:44.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Login.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:05:15.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Login.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.cs [Design]",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:18:11.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Pemesanan Hotel Terbaru\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\Pemesanan Hotel Terbaru\\Pemesanan Hotel Terbaru\\Login.Designer.cs",
+              "RelativeToolTip": "Pemesanan Hotel Terbaru\\Login.Designer.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAwMAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:04:50.654Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

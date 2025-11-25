@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A382C04B-3F1F-41DE-A2ED-A0C39C7D18C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pemesanan_Hotel_Terbaru</RootNamespace>
+    <AssemblyName>Pemesanan Hotel Terbaru</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.3.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.3.0\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.32.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.5.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdSharp, Version=0.8.6.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.6\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\DashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DashboardAdmin.Designer.cs">
+      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DataKamarA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DataKamarA.Designer.cs">
+      <DependentUpon>DataKamarA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DataReservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DataReservasi.Designer.cs">
+      <DependentUpon>DataReservasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DataTamuA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DataTamuA.Designer.cs">
+      <DependentUpon>DataTamuA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DataUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DataUser.Designer.cs">
+      <DependentUpon>DataUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\EditKamar.Designer.cs">
+      <DependentUpon>EditKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\EditUser.Designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LaporanKeuangan2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\LaporanKeuangan2.Designer.cs">
+      <DependentUpon>LaporanKeuangan2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LaporanTransaksiA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\LaporanTransaksiA.Designer.cs">
+      <DependentUpon>LaporanTransaksiA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\TambahKamar.Designer.cs">
+      <DependentUpon>TambahKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TambahUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\TambahUser.Designer.cs">
+      <DependentUpon>TambahUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Koneksi.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\DashboardOwner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\DashboardOwner.Designer.cs">
+      <DependentUpon>DashboardOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\DataKamarO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\DataKamarO.Designer.cs">
+      <DependentUpon>DataKamarO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\DataReservasiO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\DataReservasiO.Designer.cs">
+      <DependentUpon>DataReservasiO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\DataTamuO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\DataTamuO.Designer.cs">
+      <DependentUpon>DataTamuO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\DataUserO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\DataUserO.Designer.cs">
+      <DependentUpon>DataUserO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\EditUserO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\EditUserO.Designer.cs">
+      <DependentUpon>EditUserO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\LaporanKeuangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\LaporanKeuangan.Designer.cs">
+      <DependentUpon>LaporanKeuangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\LaporanTransaksiO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\LaporanTransaksiO.Designer.cs">
+      <DependentUpon>LaporanTransaksiO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner\TambahUserO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner\TambahUserO.Designer.cs">
+      <DependentUpon>TambahUserO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resepsionis\DashboardResepsionis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\DashboardResepsionis.Designer.cs">
+      <DependentUpon>DashboardResepsionis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\DataKamarR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\DataKamarR.Designer.cs">
+      <DependentUpon>DataKamarR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\DataTamuR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\DataTamuR.Designer.cs">
+      <DependentUpon>DataTamuR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\EditReservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\EditReservasi.Designer.cs">
+      <DependentUpon>EditReservasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\LaporanTransaksiR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\LaporanTransaksiR.Designer.cs">
+      <DependentUpon>LaporanTransaksiR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\ModalPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\ModalPembayaran.Designer.cs">
+      <DependentUpon>ModalPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\Reservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\Reservasi.Designer.cs">
+      <DependentUpon>Reservasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\TambahReservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\TambahReservasi.Designer.cs">
+      <DependentUpon>TambahReservasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resepsionis\TransaksiPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resepsionis\TransaksiPembayaran.Designer.cs">
+      <DependentUpon>TransaksiPembayaran.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\DashboardAdmin.resx">
+      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DataKamarA.resx">
+      <DependentUpon>DataKamarA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DataReservasi.resx">
+      <DependentUpon>DataReservasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DataTamuA.resx">
+      <DependentUpon>DataTamuA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DataUser.resx">
+      <DependentUpon>DataUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\EditKamar.resx">
+      <DependentUpon>EditKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\EditUser.resx">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\LaporanKeuangan2.resx">
+      <DependentUpon>LaporanKeuangan2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\LaporanTransaksiA.resx">
+      <DependentUpon>LaporanTransaksiA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\TambahKamar.resx">
+      <DependentUpon>TambahKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\TambahUser.resx">
+      <DependentUpon>TambahUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\DashboardOwner.resx">
+      <DependentUpon>DashboardOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\DataKamarO.resx">
+      <DependentUpon>DataKamarO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\DataReservasiO.resx">
+      <DependentUpon>DataReservasiO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\DataTamuO.resx">
+      <DependentUpon>DataTamuO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\DataUserO.resx">
+      <DependentUpon>DataUserO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\EditUserO.resx">
+      <DependentUpon>EditUserO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\LaporanKeuangan.resx">
+      <DependentUpon>LaporanKeuangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\LaporanTransaksiO.resx">
+      <DependentUpon>LaporanTransaksiO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner\TambahUserO.resx">
+      <DependentUpon>TambahUserO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resepsionis\DashboardResepsionis.resx">
+      <DependentUpon>DashboardResepsionis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\DataKamarR.resx">
+      <DependentUpon>DataKamarR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\DataTamuR.resx">
+      <DependentUpon>DataTamuR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\EditReservasi.resx">
+      <DependentUpon>EditReservasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\LaporanTransaksiR.resx">
+      <DependentUpon>LaporanTransaksiR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\ModalPembayaran.resx">
+      <DependentUpon>ModalPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\Reservasi.resx">
+      <DependentUpon>Reservasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\TambahReservasi.resx">
+      <DependentUpon>TambahReservasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resepsionis\TransaksiPembayaran.resx">
+      <DependentUpon>TransaksiPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel_pink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black White Minimalist Professional Initial Logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_White_Minimalist_Professional_Initial_Logo__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-16 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-door-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-door-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-book-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-book-161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-door-801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reservation-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reservation-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-door-301.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
