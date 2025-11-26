@@ -9,14 +9,17 @@ namespace Pemesanan_Hotel_Terbaru
     {
         // Koneksi ke database MySQL
         string connectionString = "server=localhost;database=hotelnew;uid=root;pwd=;";
-        // ⬆️ Ganti uid & pwd sesuai dengan setting XAMPP kamu (biasanya root tanpa password)
 
         public Login()
         {
             InitializeComponent();
 
-            // Event klik tombol login
-            guna2Login.Click += guna2Login_Click;
+            // ❌ SAYA SUDAH MENGHAPUS BARIS: guna2Login.Click += ...
+            // Karena baris itulah yang bikin aplikasimu error muncul dua kali.
+            // Visual Studio (Designer) sudah otomatis memasangnya.
+
+            // Pastikan form login muncul di tengah saat dijalankan
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void guna2Login_Click(object sender, EventArgs e)
@@ -48,23 +51,30 @@ namespace Pemesanan_Hotel_Terbaru
                         string role = reader["role"].ToString();
                         MessageBox.Show("Login Berhasil sebagai " + role, "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        // Buka form sesuai role
+                        Form targetForm = null;
+
+                        // Tentukan form tujuan berdasarkan role
                         if (role == "admin")
                         {
-                            Admin.DashboardAdmin adminForm = new Admin.DashboardAdmin();
-                            adminForm.Show();
-                            this.Hide();
+                            targetForm = new Admin.DashboardAdmin();
                         }
                         else if (role == "owner")
                         {
-                            Owner.DashboardOwner ownerForm = new Owner.DashboardOwner();
-                            ownerForm.Show();
-                            this.Hide();
+                            targetForm = new Owner.DashboardOwner();
                         }
                         else if (role == "resepsionis")
                         {
-                            Resepsionis.DashboardResepsionis resepsionisForm = new Resepsionis.DashboardResepsionis();
-                            resepsionisForm.Show();
+                            targetForm = new Resepsionis.DashboardResepsionis();
+                        }
+
+                        // Buka Form Tujuan
+                        if (targetForm != null)
+                        {
+                            // KUNCI: Set Maximized DULU sebelum Show() biar ga kaget ukurannya
+                            targetForm.WindowState = FormWindowState.Maximized;
+                            targetForm.Show();
+
+                            // Sembunyikan form Login
                             this.Hide();
                         }
                     }
@@ -72,9 +82,6 @@ namespace Pemesanan_Hotel_Terbaru
                     {
                         MessageBox.Show("Username atau Password salah!", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-
-                    reader.Close();
-                    conn.Close();
                 }
             }
             catch (Exception ex)
@@ -82,21 +89,11 @@ namespace Pemesanan_Hotel_Terbaru
                 MessageBox.Show("Terjadi kesalahan koneksi: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-            //
-        }
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-            //
-        }
-        private void guna2Password_TextChanged(object sender, EventArgs e)
-        {
-            //
-        }
-        private void guna2Username_TextChanged(object sender, EventArgs e)
-        {
-            //
-        }
+
+        // Event-event kosong (Biarkan saja, jangan dihapus kalau masih nyantol di Designer)
+        private void guna2PictureBox1_Click(object sender, EventArgs e) { }
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e) { }
+        private void guna2Password_TextChanged(object sender, EventArgs e) { }
+        private void guna2Username_TextChanged(object sender, EventArgs e) { }
     }
 }

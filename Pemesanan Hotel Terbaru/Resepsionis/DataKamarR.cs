@@ -4,79 +4,96 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
-using ClosedXML.Excel;                         // ✔ WORKBOOK + EXCEL
-using DocumentFormat.OpenXml.Packaging;        // ✔ diperlukan ClosedXML
-using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Drawing.Spreadsheet;
+using ClosedXML.Excel;
 
 namespace Pemesanan_Hotel_Terbaru.Resepsionis
 {
     public partial class DataKamarR : Form
     {
-        // Sama seperti Admin: simpan DataTable untuk pencarian & export
         private DataTable dataKamarTable;
 
         public DataKamarR()
         {
             InitializeComponent();
 
-            // 🔹 Navigasi antar form
-            guna2Dashboard.Click += (s, e) => OpenForm(new DashboardResepsionis());
-            //guna2Booking.Click += (s, e) => OpenForm(new Booking());
-            guna2DataKamar.Click += (s, e) => OpenForm(new DataKamarR());
-            guna2DataTamu.Click += (s, e) => OpenForm(new DataTamuR());
-            guna2LaporanTransaksi.Click += (s, e) => OpenForm(new LaporanTransaksiR());
-            guna2Reservasi.Click += (s, e) => OpenForm(new Reservasi());
-            guna2TransaksiPembayaran.Click += (s, e) => OpenForm(new TransaksiPembayaran());
+            // 1. Setting Layar & Tema
+            this.WindowState = FormWindowState.Maximized;
+            ApplyElegantTheme();
+
+            // 2. Navigasi Sidebar
+            guna2Dashboard.Click += (s, e) => PindahForm(new DashboardResepsionis());
+            guna2DataKamar.Click += (s, e) => { LoadDataKamar(); }; // Refresh
+            guna2DataTamu.Click += (s, e) => PindahForm(new DataTamuR());
+            guna2LaporanTransaksi.Click += (s, e) => PindahForm(new LaporanTransaksiR());
+            guna2Reservasi.Click += (s, e) => PindahForm(new Reservasi());
+            guna2TransaksiPembayaran.Click += (s, e) => PindahForm(new TransaksiPembayaran());
             guna2Logout.Click += (s, e) => Logout();
 
-            // 🔍 Event untuk pencarian & export (sama seperti Admin)
+            // 3. Event Lain
             guna2Cari.TextChanged += guna2Cari_TextChanged;
             guna2ExportExcel.Click += guna2ExportExcel_Click;
-
-            // 🔹 Attach load
             this.Load += DataKamarR_Load;
         }
 
-        private void OpenForm(Form targetForm)
+        // ============================================================
+        // 🎨 TEMA ELEGANT (KONSISTEN)
+        // ============================================================
+        private void ApplyElegantTheme()
         {
-            this.Hide();
-            targetForm.ShowDialog();
-            this.Close();
-        }
+            // Background
+            this.BackColor = ColorTranslator.FromHtml("#F4F6F8");
+            guna2Panel1.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel1.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel5.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel5.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2PictureBox1.BackColor = Color.Transparent;
 
-        // 🚪 Logout
-        private void Logout()
-        {
-            DialogResult result = MessageBox.Show(
-                "Apakah kamu yakin ingin logout?",
-                "Konfirmasi Logout",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question
-            );
-
-            if (result == DialogResult.Yes)
+            // Label Judul
+            foreach (Control c in Controls)
             {
-                this.Hide();
-                Login loginForm = new Login();
-                loginForm.Show();
+                if (c is Guna.UI2.WinForms.Guna2HtmlLabel) c.ForeColor = ColorTranslator.FromHtml("#333333");
             }
+
+            // Tombol Aksi
+            guna2ExportExcel.FillColor = ColorTranslator.FromHtml("#2C3E50"); // Abu Gelap
+            guna2ExportExcel.ForeColor = Color.White;
+
+            // Reset Sidebar
+            StyleSidebarButton(guna2Dashboard);
+            StyleSidebarButton(guna2DataKamar);
+            StyleSidebarButton(guna2DataTamu);
+            StyleSidebarButton(guna2LaporanTransaksi);
+            StyleSidebarButton(guna2Reservasi);
+            StyleSidebarButton(guna2TransaksiPembayaran);
+            StyleSidebarButton(guna2Logout);
+
+            // Highlight Data Kamar
+            guna2DataKamar.FillColor = ColorTranslator.FromHtml("#E2E8F0");
         }
 
-        // 🔹 Saat form dibuka, load data dan auto-refresh tiap 5 detik
+        private void StyleSidebarButton(Guna.UI2.WinForms.Guna2Button btn)
+        {
+            btn.FillColor = Color.Transparent;
+            btn.CheckedState.FillColor = Color.Transparent;
+            btn.ForeColor = ColorTranslator.FromHtml("#333333");
+            btn.HoverState.FillColor = ColorTranslator.FromHtml("#E2E8F0");
+            btn.HoverState.ForeColor = Color.Black;
+        }
+
+        // ============================================================
+        // 🛠️ LOAD & DISPLAY (FIX URUTAN)
+        // ============================================================
         private void DataKamarR_Load(object sender, EventArgs e)
         {
             LoadDataKamar();
 
-            // Timer otomatis refresh
+            // Optional: Auto Refresh tiap 5 detik
             Timer timer = new Timer();
-            timer.Interval = 5000; // refresh setiap 5 detik
+            timer.Interval = 5000;
             timer.Tick += (s, ev) => LoadDataKamar();
-            timer.Start();
+            // timer.Start(); // Uncomment kalau mau auto-refresh
         }
 
-        // 🔹 Load data kamar dari database (sinkron dengan admin)
         private void LoadDataKamar()
         {
             try
@@ -85,74 +102,54 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                 {
                     conn.Open();
                     string query = "SELECT * FROM kamar";
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
-
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
                     dataKamarTable = new DataTable();
                     adapter.Fill(dataKamarTable);
-
                     DisplayData(dataKamarTable);
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Gagal memuat data kamar: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            catch (Exception ex) { MessageBox.Show("Gagal load: " + ex.Message); }
         }
 
-        // 🔹 DisplayData dipecah agar bisa dipanggil ulang setelah filter
         private void DisplayData(DataTable dt)
         {
             guna2DataGridView1.Rows.Clear();
             guna2DataGridView1.Columns.Clear();
 
-            // 🔸 Kolom sesuai admin
-            guna2DataGridView1.Columns.Add("colID", "ID");
-            guna2DataGridView1.Columns.Add("colTipe", "Tipe Kamar");
-            guna2DataGridView1.Columns.Add("colNo", "No Kamar");
-            guna2DataGridView1.Columns.Add("colStatus", "Status");
-            guna2DataGridView1.Columns.Add("colHarga", "Harga");
-            guna2DataGridView1.Columns.Add("colDeskripsi", "Deskripsi");
+            // 1. Kolom Nomor Urut
+            AddTextColumn("colNo", "No", 50);
 
-            // 🔸 Kolom gambar
+            // 2. Kolom Data
+            AddTextColumn("colTipe", "Tipe Kamar", 150);
+            AddTextColumn("colNoKamar", "No Kamar", 100);
+            AddTextColumn("colStatus", "Status", 100);
+            AddTextColumn("colHarga", "Harga", 120);
+            AddTextColumn("colDeskripsi", "Deskripsi", 200);
+
+            // 3. Kolom Gambar
             DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
             imgCol.Name = "colPicture";
             imgCol.HeaderText = "Gambar";
             imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
             guna2DataGridView1.Columns.Add(imgCol);
 
-            // 🔸 Pengaturan tampilan grid
-            guna2DataGridView1.RowTemplate.Height = 100; // tinggi tetap
+            // Resepsionis: Read Only (Tanpa Tombol Edit/Hapus)
             guna2DataGridView1.AllowUserToAddRows = false;
-            guna2DataGridView1.ReadOnly = true; // resepsionis read-only
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            guna2DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            guna2DataGridView1.ReadOnly = true;
 
-            // 🔸 Masukkan data ke grid
+            // 4. Isi Data
+            int nomor = 1;
             foreach (DataRow row in dt.Rows)
             {
                 Image gambar = null;
                 string path = row["picture"]?.ToString();
-
                 if (!string.IsNullOrEmpty(path) && File.Exists(path))
                 {
-                    try
-                    {
-                        using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read))
-                        {
-                            Image original = Image.FromStream(fs);
-                            gambar = ResizeImage(original, 120, 100); // ⬅️ Ukuran tetap
-                        }
-                    }
-                    catch
-                    {
-                        gambar = null;
-                    }
+                    try { using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read)) { gambar = Image.FromStream(fs); } } catch { }
                 }
 
                 guna2DataGridView1.Rows.Add(
-                    row["id_kamar"],
+                    nomor++,
                     row["tipe_kamar"],
                     row["no_kamar"],
                     row["status"],
@@ -161,120 +158,121 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                     gambar
                 );
             }
+
+            // 5. Fix Tampilan
+            FixTableStyle();
         }
 
-        // 🔹 Fungsi bantu untuk resize gambar ke ukuran seragam
-        private Image ResizeImage(Image img, int width, int height)
+        private void FixTableStyle()
         {
-            Bitmap b = new Bitmap(width, height);
-            using (Graphics g = Graphics.FromImage(b))
+            guna2DataGridView1.EnableHeadersVisualStyles = false;
+            guna2DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+
+            var headerStyle = new DataGridViewCellStyle();
+            headerStyle.BackColor = ColorTranslator.FromHtml("#C5A059");
+            headerStyle.ForeColor = Color.White;
+            headerStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            headerStyle.SelectionBackColor = ColorTranslator.FromHtml("#C5A059");
+
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle = headerStyle;
+            guna2DataGridView1.ColumnHeadersHeight = 40;
+
+            foreach (DataGridViewColumn col in guna2DataGridView1.Columns)
             {
-                g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-                g.DrawImage(img, 0, 0, width, height);
+                col.HeaderCell.Style = headerStyle;
             }
-            return b;
+
+            guna2DataGridView1.DefaultCellStyle.BackColor = Color.White;
+            guna2DataGridView1.DefaultCellStyle.ForeColor = ColorTranslator.FromHtml("#333333");
+            guna2DataGridView1.DefaultCellStyle.SelectionBackColor = ColorTranslator.FromHtml("#F0E68C");
+            guna2DataGridView1.DefaultCellStyle.SelectionForeColor = Color.Black;
+            guna2DataGridView1.AlternatingRowsDefaultCellStyle.BackColor = ColorTranslator.FromHtml("#FAFAFA");
+            guna2DataGridView1.RowTemplate.Height = 80;
         }
 
-        // 🔹 Tidak ada aksi klik (karena read-only)
-        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void AddTextColumn(string name, string header, int width)
         {
-            // Kosong - resepsionis tidak bisa edit/delete
+            DataGridViewTextBoxColumn col = new DataGridViewTextBoxColumn();
+            col.Name = name;
+            col.HeaderText = header;
+            col.Width = width;
+            guna2DataGridView1.Columns.Add(col);
         }
 
-        // 🔍 SEARCHING — sama seperti Admin
+        // ============================================================
+        // SEARCH & EXPORT
+        // ============================================================
         private void guna2Cari_TextChanged(object sender, EventArgs e)
         {
-            try
+            string keyword = guna2Cari.Text.Trim();
+            if (string.IsNullOrEmpty(keyword)) DisplayData(dataKamarTable);
+            else
             {
-                if (dataKamarTable == null)
-                {
-                    return;
-                }
-
-                string keyword = guna2Cari.Text.Trim();
-
-                if (string.IsNullOrEmpty(keyword))
-                {
-                    DisplayData(dataKamarTable);
-                }
-                else
-                {
-                    DataView dv = dataKamarTable.DefaultView;
-
-                    // Filter pada tipe_kamar atau no_kamar (case-insensitive default depends on DB)
-                    // Escape single quotes to avoid filter syntax error
-                    string safe = keyword.Replace("'", "''");
-                    dv.RowFilter = $"tipe_kamar LIKE '%{safe}%' OR no_kamar LIKE '%{safe}%'";
-                    DisplayData(dv.ToTable());
-                }
-            }
-            catch (Exception ex)
-            {
-                // Kalau ada error pada filter, tampilkan semua dan beri tahu (tidak crash)
-                DisplayData(dataKamarTable);
-                // Optional: log error jika perlu
-                // MessageBox.Show($"Filter error: {ex.Message}");
+                DataView dv = dataKamarTable.DefaultView;
+                dv.RowFilter = $"tipe_kamar LIKE '%{keyword}%' OR no_kamar LIKE '%{keyword}%'";
+                DisplayData(dv.ToTable());
             }
         }
 
-        // 📌 EXPORT EXCEL — meniru Admin (ClosedXML)
         private void guna2ExportExcel_Click(object sender, EventArgs e)
         {
             try
             {
                 if (dataKamarTable == null || dataKamarTable.Rows.Count == 0)
                 {
-                    MessageBox.Show("Tidak ada data untuk diexport.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
+                    MessageBox.Show("Tidak ada data!"); return;
                 }
-
                 SaveFileDialog save = new SaveFileDialog();
                 save.Filter = "Excel File (*.xlsx)|*.xlsx";
-                save.FileName = "Data_Kamar.xlsx";
-
+                save.FileName = "Data_Kamar_Resepsionis.xlsx";
                 if (save.ShowDialog() == DialogResult.OK)
                 {
-                    // BUAT DATATABLE SAMA SEPERTI DI GRID (tanpa gambar)
-                    DataTable dt = new DataTable();
-                    dt.Columns.Add("ID");
-                    dt.Columns.Add("Tipe Kamar");
-                    dt.Columns.Add("No Kamar");
-                    dt.Columns.Add("Status");
-                    dt.Columns.Add("Harga");
-                    dt.Columns.Add("Deskripsi");
-
-                    foreach (DataRow row in dataKamarTable.Rows)
-                    {
-                        dt.Rows.Add(
-                            row["id_kamar"].ToString(),
-                            row["tipe_kamar"].ToString(),
-                            row["no_kamar"].ToString(),
-                            row["status"].ToString(),
-                            row["harga"].ToString(),
-                            row["deskripsi"].ToString()
-                        );
-                    }
-
                     using (XLWorkbook wb = new XLWorkbook())
                     {
-                        var ws = wb.Worksheets.Add(dt, "Data Kamar");
+                        // Buat tabel bersih utk export
+                        DataTable dtExcel = new DataTable("Kamar");
+                        dtExcel.Columns.Add("No");
+                        dtExcel.Columns.Add("Tipe");
+                        dtExcel.Columns.Add("Nomor");
+                        dtExcel.Columns.Add("Status");
+                        dtExcel.Columns.Add("Harga");
+                        dtExcel.Columns.Add("Deskripsi");
 
-                        // Format kolom harga agar dianggap angka (kolom ke-5, 1-based index)
-                        ws.Column(5).Style.NumberFormat.Format = "#,##0";
+                        foreach (DataGridViewRow r in guna2DataGridView1.Rows)
+                        {
+                            dtExcel.Rows.Add(
+                                r.Cells["colNo"].Value, r.Cells["colTipe"].Value, r.Cells["colNoKamar"].Value,
+                                r.Cells["colStatus"].Value, r.Cells["colHarga"].Value, r.Cells["colDeskripsi"].Value
+                            );
+                        }
 
-                        // Autofit kolom
-                        ws.Columns().AdjustToContents();
-
+                        wb.Worksheets.Add(dtExcel);
                         wb.SaveAs(save.FileName);
                     }
-
-                    MessageBox.Show("Export berhasil!", "Sukses");
+                    MessageBox.Show("Export Berhasil!");
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex) { MessageBox.Show("Gagal: " + ex.Message); }
+        }
+
+        // ============================================================
+        // NAVIGASI
+        // ============================================================
+        private void PindahForm(Form targetForm)
+        {
+            targetForm.WindowState = FormWindowState.Maximized;
+            targetForm.Show();
+            this.Hide();
+        }
+
+        private void Logout()
+        {
+            if (MessageBox.Show("Logout?", "Konfirmasi", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Gagal export: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Hide(); new Login().Show();
             }
         }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
     }
 }

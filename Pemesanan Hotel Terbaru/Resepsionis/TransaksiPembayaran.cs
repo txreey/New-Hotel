@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Data;
+using System.Drawing; // Wajib untuk tema
 using System.Windows.Forms;
 
 namespace Pemesanan_Hotel_Terbaru.Resepsionis
@@ -11,52 +12,116 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
         {
             InitializeComponent();
 
-            // 🔹 Navigasi (sama seperti form resepsionis lainnya)
-            guna2Dashboard.Click += (s, e) => OpenForm(new DashboardResepsionis());
-            //guna2Booking.Click += (s, e) => OpenForm(new Booking());
-            guna2DataKamar.Click += (s, e) => OpenForm(new DataKamarR());
-            guna2DataTamu.Click += (s, e) => OpenForm(new DataTamuR());
-            guna2LaporanTransaksi.Click += (s, e) => OpenForm(new LaporanTransaksiR());
-            guna2Reservasi.Click += (s, e) => OpenForm(new Reservasi());
-            guna2TransaksiPembayaran.Click += (s, e) => OpenForm(new TransaksiPembayaran());
+            // 1. Setting Layar & Tema
+            this.WindowState = FormWindowState.Maximized;
+            ApplyElegantTheme();
+
+            // 2. Navigasi Sidebar
+            guna2Dashboard.Click += (s, e) => PindahForm(new DashboardResepsionis());
+            guna2DataKamar.Click += (s, e) => PindahForm(new DataKamarR());
+            guna2DataTamu.Click += (s, e) => PindahForm(new DataTamuR());
+            guna2LaporanTransaksi.Click += (s, e) => PindahForm(new LaporanTransaksiR());
+            guna2Reservasi.Click += (s, e) => PindahForm(new Reservasi());
+            guna2TransaksiPembayaran.Click += (s, e) => { LoadUnpaidReservations(); }; // Refresh diri sendiri
             guna2Logout.Click += (s, e) => Logout();
 
-            // 🔹 Events
+            // 3. Events & Load
             this.Load += TransaksiPembayaran_Load;
             guna2NamaTamu.SelectedIndexChanged += guna2NamaTamu_SelectedIndexChanged;
             guna2Bayar.Click += guna2Bayar_Click;
 
-            // 🔹 Isi dropdown pembayaran
+            // Isi Dropdown
             guna2Pembayaran.Items.Clear();
             guna2Pembayaran.Items.Add("Cash");
             guna2Pembayaran.Items.Add("Cashless");
             guna2Pembayaran.SelectedIndex = 0;
         }
 
-        private void OpenForm(Form targetForm)
+        // ============================================================
+        // 🎨 TEMA ELEGANT (KONSISTEN)
+        // ============================================================
+        private void ApplyElegantTheme()
         {
-            this.Hide();
-            targetForm.ShowDialog();
-            this.Close();
-        }
+            // Background
+            this.BackColor = ColorTranslator.FromHtml("#F4F6F8");
+            guna2Panel1.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel1.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel5.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel5.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2PictureBox1.BackColor = Color.Transparent;
 
-        private void Logout()
-        {
-            DialogResult result = MessageBox.Show("Apakah kamu yakin ingin logout?", "Konfirmasi Logout",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
+            // Label Gelap
+            foreach (Control c in Controls)
             {
-                this.Hide();
-                new Login().Show();
+                if (c is Guna.UI2.WinForms.Guna2HtmlLabel) c.ForeColor = ColorTranslator.FromHtml("#333333");
             }
+
+            // Tombol Bayar (Emas)
+            guna2Bayar.FillColor = ColorTranslator.FromHtml("#C5A059");
+            guna2Bayar.ForeColor = Color.White;
+
+            // Reset Sidebar
+            StyleSidebarButton(guna2Dashboard);
+            StyleSidebarButton(guna2DataKamar);
+            StyleSidebarButton(guna2DataTamu);
+            StyleSidebarButton(guna2LaporanTransaksi);
+            StyleSidebarButton(guna2Reservasi);
+            StyleSidebarButton(guna2TransaksiPembayaran);
+            StyleSidebarButton(guna2Logout);
+
+            // Highlight Transaksi
+            guna2TransaksiPembayaran.FillColor = ColorTranslator.FromHtml("#E2E8F0");
+
+            // Styling Input (Biar rapi)
+            StyleInput(guna2Kamar);
+            StyleInput(guna2Total);
+            StyleDate(guna2Check_in);
+            StyleDate(guna2Check_out);
+            StyleCombo(guna2NamaTamu);
+            StyleCombo(guna2Pembayaran);
         }
 
+        private void StyleSidebarButton(Guna.UI2.WinForms.Guna2Button btn)
+        {
+            btn.FillColor = Color.Transparent;
+            btn.CheckedState.FillColor = Color.Transparent;
+            btn.ForeColor = ColorTranslator.FromHtml("#333333");
+            btn.HoverState.FillColor = ColorTranslator.FromHtml("#E2E8F0");
+            btn.HoverState.ForeColor = Color.Black;
+        }
+
+        private void StyleInput(Guna.UI2.WinForms.Guna2TextBox txt)
+        {
+            txt.FillColor = Color.White;
+            txt.BorderColor = ColorTranslator.FromHtml("#CBD5E1");
+            txt.ForeColor = ColorTranslator.FromHtml("#333333");
+            txt.ReadOnly = true; // Readonly karena data dari database
+        }
+
+        private void StyleCombo(Guna.UI2.WinForms.Guna2ComboBox cmb)
+        {
+            cmb.FillColor = Color.White;
+            cmb.BorderColor = ColorTranslator.FromHtml("#CBD5E1");
+            cmb.ForeColor = ColorTranslator.FromHtml("#333333");
+        }
+
+        private void StyleDate(Guna.UI2.WinForms.Guna2DateTimePicker dtp)
+        {
+            dtp.FillColor = Color.White;
+            dtp.BorderColor = ColorTranslator.FromHtml("#CBD5E1");
+            dtp.ForeColor = ColorTranslator.FromHtml("#333333");
+            dtp.BorderThickness = 1;
+            dtp.Enabled = false; // Readonly
+        }
+
+        // ============================================================
+        // 🛠️ LOGIKA UTAMA
+        // ============================================================
         private void TransaksiPembayaran_Load(object sender, EventArgs e)
         {
             LoadUnpaidReservations();
         }
 
-        // 🔹 Load nama tamu yang BELUM melakukan transaksi pembayaran
         private void LoadUnpaidReservations()
         {
             try
@@ -64,12 +129,13 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                 using (MySqlConnection conn = Koneksi.GetConnection())
                 {
                     conn.Open();
+                    // Load tamu yg statusnya BELUM bayar
                     string query = @"
-                SELECT r.id_reservasi, t.nama_tamu
-                FROM reservasi r
-                JOIN tamu t ON r.id_tamu = t.id_tamu
-                WHERE COALESCE(r.status_pembayaran, '') != 'Sudah Bayar'
-                ORDER BY t.nama_tamu";
+                        SELECT r.id_reservasi, t.nama_tamu
+                        FROM reservasi r
+                        JOIN tamu t ON r.id_tamu = t.id_tamu
+                        WHERE COALESCE(r.status_pembayaran, '') != 'Sudah Bayar'
+                        ORDER BY t.nama_tamu";
 
                     MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
                     DataTable dt = new DataTable();
@@ -80,21 +146,16 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                     guna2NamaTamu.ValueMember = "id_reservasi";
                     guna2NamaTamu.SelectedIndex = -1;
 
-                    // Kosongkan field
+                    // Bersihkan Field
                     guna2Kamar.Text = "";
                     guna2Total.Text = "";
                     guna2Check_in.Value = DateTime.Today;
                     guna2Check_out.Value = DateTime.Today;
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal memuat data tamu: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Gagal load data: " + ex.Message); }
         }
 
-
-        // 🔹 Saat pilih nama tamu -> ambil data dari reservasi
         private void guna2NamaTamu_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (guna2NamaTamu.SelectedValue == null) return;
@@ -124,30 +185,27 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                             string noKamar = dr.GetString("no_kamar");
                             decimal harga = dr.GetDecimal("harga");
 
-                            // isi otomatis
-                            guna2Kamar.Text = $"{tipe}-{noKamar}";
+                            // Isi form otomatis
+                            guna2Kamar.Text = $"{tipe} - {noKamar}";
                             guna2Check_in.Value = checkIn;
                             guna2Check_out.Value = checkOut;
 
-                            int lamaMenginap = (checkOut.Date - checkIn.Date).Days + 1;
+                            // Hitung hari (Minimal 1 hari)
+                            int lamaMenginap = (checkOut.Date - checkIn.Date).Days;
                             if (lamaMenginap < 1) lamaMenginap = 1;
 
                             decimal total = harga * lamaMenginap;
                             guna2Total.Text = total.ToString("N0");
 
-                            // simpan ke Tag agar bisa dikirim ke modal
-                            guna2Total.Tag = harga; // simpan harga per malam
+                            // Simpan harga per malam untuk dikirim ke modal nanti
+                            guna2Total.Tag = harga;
                         }
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal mengambil data reservasi: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Gagal ambil detail: " + ex.Message); }
         }
 
-        // 🔹 Klik tombol BAYAR
         private void guna2Bayar_Click(object sender, EventArgs e)
         {
             if (guna2NamaTamu.SelectedValue == null)
@@ -162,34 +220,49 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
 
             if (!decimal.TryParse(guna2Total.Text.Replace(",", ""), out decimal total))
             {
-                MessageBox.Show("Total tidak valid.");
-                return;
+                MessageBox.Show("Total tagihan tidak valid."); return;
             }
 
+            // Ambil harga per malam dari Tag (disimpan saat dropdown berubah)
             if (!decimal.TryParse(guna2Total.Tag?.ToString(), out decimal hargaPerMalam))
             {
                 hargaPerMalam = 0;
             }
 
-            // 🔸 buka modal pembayaran
+            // Buka Modal Pembayaran
             using (ModalPembayaran modal = new ModalPembayaran(idReservasi, namaTamu, hargaPerMalam, total, metode))
             {
                 if (modal.ShowDialog() == DialogResult.OK)
                 {
-                    // reload dropdown setelah pembayaran sukses
+                    // Jika sukses, refresh dropdown (tamu yg sudah bayar hilang)
                     LoadUnpaidReservations();
                 }
             }
         }
 
-        // event kosong (biar tidak error di designer)
+        // ============================================================
+        // NAVIGASI
+        // ============================================================
+        private void PindahForm(Form targetForm)
+        {
+            targetForm.WindowState = FormWindowState.Maximized;
+            targetForm.Show();
+            this.Hide();
+        }
+
+        private void Logout()
+        {
+            if (MessageBox.Show("Logout?", "Konfirmasi", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Hide(); new Login().Show();
+            }
+        }
+
+        // Event Kosong
         private void guna2Kamar_TextChanged(object sender, EventArgs e) { }
         private void guna2Check_in_ValueChanged(object sender, EventArgs e) { }
         private void guna2Check_out_ValueChanged(object sender, EventArgs e) { }
         private void guna2Total_TextChanged(object sender, EventArgs e) { }
         private void guna2Pembayaran_SelectedIndexChanged(object sender, EventArgs e) { }
     }
-
 }
-
-

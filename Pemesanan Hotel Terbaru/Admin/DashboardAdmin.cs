@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Data;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Pemesanan_Hotel_Terbaru.Admin
@@ -13,35 +14,103 @@ namespace Pemesanan_Hotel_Terbaru.Admin
         {
             InitializeComponent();
 
-            // tombol sidebar
-            guna2Dashboard.Click += (s, e) => OpenForm(new DashboardAdmin());
-            guna2DataKamar.Click += (s, e) => OpenForm(new DataKamarA());
-            guna2DataTamu.Click += (s, e) => OpenForm(new DataTamuA());
-            guna2LaporanTransaksi.Click += (s, e) => OpenForm(new LaporanTransaksiA());
-            guna2DataReservasi.Click += (s, e) => OpenForm(new DataReservasi());
-            guna2DataUser.Click += (s, e) => OpenForm(new DataUser());
-            guna2LaporanKeuangan.Click += (s, e) => OpenForm(new LaporanKeuangan2());
+            // KUNCI: Paksa Full Screen di Constructor
+            this.WindowState = FormWindowState.Maximized;
+
+            // Terapkan Tema Elegant
+            ApplyElegantTheme();
+
+            // === PERBAIKAN LOGIKA TOMBOL SIDEBAR ===
+            // Tombol Dashboard cuma REFRESH, jangan buka form baru
+            guna2Dashboard.Click += (s, e) => {
+                LoadDashboardSummary();
+                LoadAktivitas();
+                MessageBox.Show("Data Dashboard diperbarui.", "Refresh", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            };
+
+            // Tombol lain baru pindah form
+            guna2DataKamar.Click += (s, e) => GantiForm(new DataKamarA());
+            guna2DataTamu.Click += (s, e) => GantiForm(new DataTamuA());
+            guna2LaporanTransaksi.Click += (s, e) => GantiForm(new LaporanTransaksiA());
+            guna2DataReservasi.Click += (s, e) => GantiForm(new DataReservasi());
+            guna2DataUser.Click += (s, e) => GantiForm(new DataUser());
+            guna2LaporanKeuangan.Click += (s, e) => GantiForm(new LaporanKeuangan2());
+
             guna2Logout.Click += (s, e) => Logout();
         }
 
-        // Buka form lain
-        private void OpenForm(Form targetForm)
+        // FUNGSI BARU UNTUK PINDAH FORM BIAR GAK TUMPUK
+        private void GantiForm(Form targetForm)
         {
-            this.Hide();
-            targetForm.ShowDialog();
-            this.Close();
+            targetForm.WindowState = FormWindowState.Maximized; // Pastikan form tujuan juga Full Screen
+            targetForm.Show();
+            this.Hide(); // Sembunyikan dashboard saat pindah
         }
 
-        // Logout
+        private void ApplyElegantTheme()
+        {
+            this.BackColor = ColorTranslator.FromHtml("#F4F6F8");
+
+            // Sidebar & Header
+            guna2Panel1.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2Panel5.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            guna2PictureBox1.BackColor = Color.Transparent;
+
+            // Tabel
+            guna2DataGridView1.BackgroundColor = Color.White;
+            guna2DataGridView1.EnableHeadersVisualStyles = false;
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle.BackColor = ColorTranslator.FromHtml("#C5A059");
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            guna2DataGridView1.ColumnHeadersHeight = 40;
+            guna2DataGridView1.DefaultCellStyle.ForeColor = ColorTranslator.FromHtml("#333333");
+            guna2DataGridView1.DefaultCellStyle.SelectionBackColor = ColorTranslator.FromHtml("#F0E68C");
+            guna2DataGridView1.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Fix Label Kepotong
+            FixLabel(guna2HtmlLabel2);
+            FixLabel(guna2HtmlLabel4);
+            FixLabel(guna2HtmlLabel6);
+            FixLabel(guna2HtmlLabel7);
+            FixLabel(guna2HtmlLabel8); // Label Admin
+
+            FixLabel(guna2JumlahKamar);
+            FixLabel(guna2JumlahUser);
+            FixLabel(guna2ReservasiHariIni);
+
+            // Style Tombol Sidebar
+            StyleSidebarButton(guna2Dashboard);
+            StyleSidebarButton(guna2DataKamar);
+            StyleSidebarButton(guna2DataTamu);
+            StyleSidebarButton(guna2LaporanTransaksi);
+            StyleSidebarButton(guna2DataReservasi);
+            StyleSidebarButton(guna2DataUser);
+            StyleSidebarButton(guna2LaporanKeuangan);
+            StyleSidebarButton(guna2Logout);
+
+        }
+
+        private void StyleSidebarButton(Guna.UI2.WinForms.Guna2Button btn)
+        {
+            btn.FillColor = Color.Transparent;
+            btn.ForeColor = ColorTranslator.FromHtml("#333333");
+            btn.HoverState.FillColor = ColorTranslator.FromHtml("#E2E8F0");
+            btn.HoverState.ForeColor = Color.Black;
+        }
+
+        private void FixLabel(Control lbl)
+        {
+            if (lbl != null)
+            {
+                if (lbl is Guna.UI2.WinForms.Guna2HtmlLabel gLabel) gLabel.AutoSize = true;
+                lbl.ForeColor = ColorTranslator.FromHtml("#333333");
+                lbl.BringToFront();
+            }
+        }
+
         private void Logout()
         {
-            DialogResult result = MessageBox.Show(
-                "Apakah kamu yakin ingin logout?",
-                "Konfirmasi Logout",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question
-            );
-
+            DialogResult result = MessageBox.Show("Apakah kamu yakin ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 this.Hide();
@@ -51,13 +120,11 @@ namespace Pemesanan_Hotel_Terbaru.Admin
 
         private void DashboardAdmin_Load(object sender, EventArgs e)
         {
-            LoadAktivitas();          // tampilkan log aktivitas
-            LoadDashboardSummary();   // tampilkan jumlah kamar, user, reservasi hari ini
+            LoadAktivitas();
+            LoadDashboardSummary();
         }
 
-        // ======================================
-        // 🔵 LOAD DATA AKTIVITAS KE DASHBOARD
-        // ======================================
+        // Database Logic (Sama Seperti Sebelumnya)
         private void LoadAktivitas()
         {
             try
@@ -65,114 +132,48 @@ namespace Pemesanan_Hotel_Terbaru.Admin
                 using (MySqlConnection conn = Koneksi.GetConnection())
                 {
                     conn.Open();
-
-                    string query = @"
-                        SELECT 
-                            u.username AS `User`,
-                            CONCAT(u.role, ' - ', l.aktivitas) AS `Aktivitas`,
-                            l.waktu AS `Waktu Aktivitas`
-                        FROM log_aktivitas l
-                        INNER JOIN user u ON u.id_user = l.user_id
-                        ORDER BY l.waktu DESC
-                    ";
-
+                    string query = @"SELECT u.username AS `User`, CONCAT(u.role, ' - ', l.aktivitas) AS `Aktivitas`, l.waktu AS `Waktu Aktivitas` 
+                                     FROM log_aktivitas l INNER JOIN user u ON u.id_user = l.user_id ORDER BY l.waktu DESC";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
                     MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-
                     dtAktivitas.Clear();
                     da.Fill(dtAktivitas);
-
                     guna2DataGridView1.DataSource = dtAktivitas;
-
-                    // styling header otomatis
-                    guna2DataGridView1.Columns["User"].HeaderText = "User";
-                    guna2DataGridView1.Columns["Aktivitas"].HeaderText = "Aktivitas";
-                    guna2DataGridView1.Columns["Waktu Aktivitas"].HeaderText = "Waktu Aktivitas";
+                    guna2DataGridView1.AllowUserToAddRows = false;
+                    guna2DataGridView1.ReadOnly = true;
+                    if (guna2DataGridView1.Columns["User"] != null) guna2DataGridView1.Columns["User"].HeaderText = "User";
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal mengambil data aktivitas: " + ex.Message);
-            }
+            catch { }
         }
 
-        // ======================================
-        // 🔵 LOAD JUMLAH SUMMARY DASHBOARD
-        // ======================================
         private void LoadDashboardSummary()
         {
-            guna2JumlahKamar.Text = GetJumlahKamar().ToString();
-            guna2JumlahUser.Text = GetJumlahUser().ToString();
-            guna2ReservasiHariIni.Text = GetReservasiHariIni().ToString();
+            guna2JumlahKamar.Text = GetCount("SELECT COUNT(*) FROM kamar").ToString();
+            guna2JumlahUser.Text = GetCount("SELECT COUNT(*) FROM user").ToString();
+            guna2ReservasiHariIni.Text = GetCount("SELECT COUNT(*) FROM reservasi WHERE tanggal_checkin = CURDATE()").ToString();
+
+            guna2JumlahKamar.ForeColor = ColorTranslator.FromHtml("#333333");
+            guna2JumlahUser.ForeColor = ColorTranslator.FromHtml("#333333");
+            guna2ReservasiHariIni.ForeColor = ColorTranslator.FromHtml("#333333");
         }
 
-        // ===============================
-        // 🟣 JUMLAH KAMAR
-        // ===============================
-        private int GetJumlahKamar()
+        private int GetCount(string query)
         {
             try
             {
                 using (MySqlConnection conn = Koneksi.GetConnection())
                 {
                     conn.Open();
-                    string query = "SELECT COUNT(*) FROM kamar";
-
                     MySqlCommand cmd = new MySqlCommand(query, conn);
-                    return Convert.ToInt32(cmd.ExecuteScalar());
+                    object result = cmd.ExecuteScalar();
+                    return result != null ? Convert.ToInt32(result) : 0;
                 }
             }
-            catch
-            {
-                return 0;
-            }
+            catch { return 0; }
         }
 
-        // ===============================
-        // 🟣 JUMLAH USER
-        // ===============================
-        private int GetJumlahUser()
-        {
-            try
-            {
-                using (MySqlConnection conn = Koneksi.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT COUNT(*) FROM user";
-
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
-                    return Convert.ToInt32(cmd.ExecuteScalar());
-                }
-            }
-            catch
-            {
-                return 0;
-            }
-        }
-
-        // ===============================
-        // 🟣 RESERVASI HARI INI
-        // ===============================
-        private int GetReservasiHariIni()
-        {
-            try
-            {
-                using (MySqlConnection conn = Koneksi.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT COUNT(*) FROM reservasi WHERE tanggal_checkin = CURDATE()";
-
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
-                    return Convert.ToInt32(cmd.ExecuteScalar());
-                }
-            }
-            catch
-            {
-                return 0;
-            }
-        }
-
-        // EVENT KOSONG
+        // Event Kosong
         private void guna2Panel6_Paint(object sender, PaintEventArgs e) { }
         private void guna2HtmlLabel5_Click(object sender, EventArgs e) { }
         private void guna2DataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e) { }

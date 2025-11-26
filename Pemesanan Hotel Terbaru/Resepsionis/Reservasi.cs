@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using ClosedXML.Excel;
 
@@ -13,42 +14,91 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
         public Reservasi()
         {
             InitializeComponent();
-            guna2Dashboard.Click += (s, e) => OpenForm(new DashboardResepsionis());
-            guna2DataKamar.Click += (s, e) => OpenForm(new DataKamarR());
-            guna2DataTamu.Click += (s, e) => OpenForm(new DataTamuR());
-            guna2LaporanTransaksi.Click += (s, e) => OpenForm(new LaporanTransaksiR());
-            guna2Reservasi.Click += (s, e) => OpenForm(new Reservasi());
-            guna2TransaksiPembayaran.Click += (s, e) => OpenForm(new TransaksiPembayaran());
+
+            // 1. Setting Layar & Tema
+            this.WindowState = FormWindowState.Maximized;
+            ApplyElegantTheme();
+
+            // 2. Navigasi Sidebar
+            guna2Dashboard.Click += (s, e) => PindahForm(new DashboardResepsionis());
+            guna2DataKamar.Click += (s, e) => PindahForm(new DataKamarR());
+            guna2DataTamu.Click += (s, e) => PindahForm(new DataTamuR());
+            guna2LaporanTransaksi.Click += (s, e) => PindahForm(new LaporanTransaksiR());
+            guna2Reservasi.Click += (s, e) => { LoadDataReservasi(); }; // Refresh
+            guna2TransaksiPembayaran.Click += (s, e) => PindahForm(new TransaksiPembayaran());
             guna2Logout.Click += (s, e) => Logout();
+
+            // 3. Event Lain (Manual Assign biar aman)
+            // Jika di designer sudah ada +=, baris ini opsional tapi aman dibiarkan
+            guna2Tambah.Click += guna2Tambah_Click;
+            guna2Cari.TextChanged += guna2Cari_TextChanged;
+            guna2Reset.Click += guna2Reset_Click;
+            guna2ExportExcel.Click += guna2ExportExcel_Click;
+
+            this.Load += Reservasi_Load;
         }
 
-        private void OpenForm(Form targetForm)
+        // ============================================================
+        // 🎨 TEMA ELEGANT
+        // ============================================================
+        private void ApplyElegantTheme()
         {
-            this.Hide();
-            targetForm.ShowDialog();
-            this.Close();
-        }
+            this.BackColor = ColorTranslator.FromHtml("#F4F6F8");
 
-        private void Logout()
-        {
-            DialogResult result = MessageBox.Show("Apakah kamu yakin ingin logout?",
-                "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
+            // Cek null agar tidak error
+            if (guna2Panel1 != null)
             {
-                this.Hide();
-                new Login().Show();
+                guna2Panel1.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+                guna2Panel1.BackColor = ColorTranslator.FromHtml("#F9F7F2");
             }
+            if (guna2Panel5 != null)
+            {
+                guna2Panel5.FillColor = ColorTranslator.FromHtml("#F9F7F2");
+                guna2Panel5.BackColor = ColorTranslator.FromHtml("#F9F7F2");
+            }
+            if (guna2PictureBox1 != null) guna2PictureBox1.BackColor = Color.Transparent;
+
+            foreach (Control c in Controls)
+            {
+                if (c is Guna.UI2.WinForms.Guna2HtmlLabel) c.ForeColor = ColorTranslator.FromHtml("#333333");
+            }
+
+            guna2Tambah.FillColor = ColorTranslator.FromHtml("#C5A059");
+            guna2Tambah.ForeColor = Color.White;
+            guna2Reset.FillColor = ColorTranslator.FromHtml("#C5A059");
+            guna2Reset.ForeColor = Color.White;
+            guna2ExportExcel.FillColor = ColorTranslator.FromHtml("#2C3E50");
+            guna2ExportExcel.ForeColor = Color.White;
+
+            StyleSidebarButton(guna2Dashboard);
+            StyleSidebarButton(guna2DataKamar);
+            StyleSidebarButton(guna2DataTamu);
+            StyleSidebarButton(guna2LaporanTransaksi);
+            StyleSidebarButton(guna2Reservasi);
+            StyleSidebarButton(guna2TransaksiPembayaran);
+            StyleSidebarButton(guna2Logout);
+
+            guna2Reservasi.FillColor = ColorTranslator.FromHtml("#E2E8F0");
         }
 
+        private void StyleSidebarButton(Guna.UI2.WinForms.Guna2Button btn)
+        {
+            if (btn == null) return;
+            btn.FillColor = Color.Transparent;
+            btn.CheckedState.FillColor = Color.Transparent;
+            btn.ForeColor = ColorTranslator.FromHtml("#333333");
+            btn.HoverState.FillColor = ColorTranslator.FromHtml("#E2E8F0");
+            btn.HoverState.ForeColor = Color.Black;
+        }
+
+        // ============================================================
+        // 🛠️ LOAD DATA
+        // ============================================================
         private void Reservasi_Load(object sender, EventArgs e)
         {
             LoadDataReservasi();
         }
 
-        // ============================================================
-        // LOAD DATA DARI DATABASE
-        // ============================================================
         private void LoadDataReservasi()
         {
             try
@@ -67,137 +117,246 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
                             r.status_pembayaran
                         FROM reservasi r
                         JOIN tamu t ON r.id_tamu = t.id_tamu
-                        JOIN kamar k ON r.id_kamar = k.id_kamar";
+                        JOIN kamar k ON r.id_kamar = k.id_kamar
+                        ORDER BY r.check_in DESC";
 
                     MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
                     dtReservasi = new DataTable();
                     da.Fill(dtReservasi);
 
-                    guna2DataGridView1.DataSource = dtReservasi;
-
-                    AddActionButtons();
-                    ApplyActionButtonRules();
+                    DisplayData(dtReservasi);
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal memuat data: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Gagal memuat data: " + ex.Message); }
         }
 
-        // ============================================================
-        //  TAMBAH TOMBOL EDIT & DELETE
-        // ============================================================
-        private void AddActionButtons()
+        private void DisplayData(DataTable dt)
         {
-            if (!guna2DataGridView1.Columns.Contains("Edit"))
+            guna2DataGridView1.DataSource = null;
+            guna2DataGridView1.Rows.Clear();
+            guna2DataGridView1.Columns.Clear();
+
+            AddTextColumn("colNo", "No", 50);
+            AddTextColumn("colTamu", "Nama Tamu", 150);
+            AddTextColumn("colTipe", "Tipe Kamar", 120);
+            AddTextColumn("colNoKamar", "No Kamar", 80);
+            AddTextColumn("colIn", "Check In", 120);
+            AddTextColumn("colOut", "Check Out", 120);
+            AddTextColumn("colStatus", "Status", 120);
+
+            AddTextColumn("colID", "ID", 0);
+            guna2DataGridView1.Columns["colID"].Visible = false;
+
+            AddButtonColumn("colEdit", "Edit");
+            AddButtonColumn("colDelete", "Hapus");
+
+            guna2DataGridView1.AllowUserToAddRows = false;
+
+            int nomor = 1;
+            foreach (DataRow row in dt.Rows)
             {
-                DataGridViewButtonColumn edit = new DataGridViewButtonColumn();
-                edit.Name = "Edit";
-                edit.HeaderText = "Edit";
-                edit.Text = "Edit";
-                edit.UseColumnTextForButtonValue = true;
-                guna2DataGridView1.Columns.Add(edit);
-            }
+                string tglIn = Convert.ToDateTime(row["check_in"]).ToString("dd MMM yyyy");
+                string tglOut = Convert.ToDateTime(row["check_out"]).ToString("dd MMM yyyy");
+                string status = row["status_pembayaran"].ToString();
 
-            if (!guna2DataGridView1.Columns.Contains("Delete"))
-            {
-                DataGridViewButtonColumn delete = new DataGridViewButtonColumn();
-                delete.Name = "Delete";
-                delete.HeaderText = "Delete";
-                delete.Text = "Delete";
-                delete.UseColumnTextForButtonValue = true;
-                guna2DataGridView1.Columns.Add(delete);
-            }
-        }
+                int idx = guna2DataGridView1.Rows.Add(
+                    nomor++,
+                    row["nama_tamu"],
+                    row["tipe_kamar"],
+                    row["no_kamar"],
+                    tglIn, tglOut,
+                    status,
+                    row["id_reservasi"],
+                    "Edit", "Hapus"
+                );
 
-        // ============================================================
-        // ATUR TOMBOL SESUAI STATUS PEMBAYARAN
-        // ============================================================
-        private void ApplyActionButtonRules()
-        {
-            foreach (DataGridViewRow row in guna2DataGridView1.Rows)
-            {
-                if (row.Cells["status_pembayaran"].Value == null) continue;
-
-                string status = row.Cells["status_pembayaran"].Value.ToString().ToLower();
-
-                if (status == "sudah bayar")
+                if (status.ToLower() == "sudah bayar")
                 {
-                    row.Cells["Edit"].Value = "";
-                    row.Cells["Delete"].Value = "";
+                    var cellEdit = (DataGridViewButtonCell)guna2DataGridView1.Rows[idx].Cells["colEdit"];
+                    var cellDel = (DataGridViewButtonCell)guna2DataGridView1.Rows[idx].Cells["colDelete"];
 
-                    row.Cells["Edit"].ReadOnly = true;
-                    row.Cells["Delete"].ReadOnly = true;
+                    cellEdit.FlatStyle = FlatStyle.Flat;
+                    cellEdit.Style.ForeColor = Color.Gray;
+                    cellEdit.Style.SelectionForeColor = Color.Gray;
 
-                    row.Cells["Edit"].Style.ForeColor = System.Drawing.Color.Gray;
-                    row.Cells["Delete"].Style.ForeColor = System.Drawing.Color.Gray;
+                    cellDel.FlatStyle = FlatStyle.Flat;
+                    cellDel.Style.ForeColor = Color.Gray;
+                    cellDel.Style.SelectionForeColor = Color.Gray;
                 }
             }
+            FixTableStyle();
         }
 
-        // ============================================================
-        //  EVENT KLIK EDIT / DELETE
-        // ============================================================
+        private void FixTableStyle()
+        {
+            guna2DataGridView1.EnableHeadersVisualStyles = false;
+            guna2DataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+
+            var headerStyle = new DataGridViewCellStyle();
+            headerStyle.BackColor = ColorTranslator.FromHtml("#C5A059");
+            headerStyle.ForeColor = Color.White;
+            headerStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            headerStyle.SelectionBackColor = ColorTranslator.FromHtml("#C5A059");
+
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle = headerStyle;
+            guna2DataGridView1.ColumnHeadersHeight = 40;
+
+            foreach (DataGridViewColumn col in guna2DataGridView1.Columns)
+            {
+                col.HeaderCell.Style = headerStyle;
+            }
+
+            guna2DataGridView1.DefaultCellStyle.BackColor = Color.White;
+            guna2DataGridView1.DefaultCellStyle.ForeColor = ColorTranslator.FromHtml("#333333");
+            guna2DataGridView1.DefaultCellStyle.SelectionBackColor = ColorTranslator.FromHtml("#F0E68C");
+            guna2DataGridView1.DefaultCellStyle.SelectionForeColor = Color.Black;
+            guna2DataGridView1.AlternatingRowsDefaultCellStyle.BackColor = ColorTranslator.FromHtml("#FAFAFA");
+            guna2DataGridView1.RowTemplate.Height = 50;
+        }
+
+        private void AddTextColumn(string name, string header, int width)
+        {
+            DataGridViewTextBoxColumn col = new DataGridViewTextBoxColumn();
+            col.Name = name;
+            col.HeaderText = header;
+            col.Width = width;
+            guna2DataGridView1.Columns.Add(col);
+        }
+
+        private void AddButtonColumn(string name, string text)
+        {
+            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            btn.Name = name;
+            btn.HeaderText = text;
+            btn.Text = text;
+            btn.UseColumnTextForButtonValue = true;
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.DefaultCellStyle.BackColor = Color.WhiteSmoke;
+            btn.DefaultCellStyle.ForeColor = Color.Black;
+            guna2DataGridView1.Columns.Add(btn);
+        }
+
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0) return;
 
-            string status = guna2DataGridView1.Rows[e.RowIndex]
-                                .Cells["status_pembayaran"].Value.ToString().ToLower();
-
+            string status = guna2DataGridView1.Rows[e.RowIndex].Cells["colStatus"].Value.ToString().ToLower();
             if (status == "sudah bayar") return;
 
-            string idReservasi = guna2DataGridView1.Rows[e.RowIndex]
-                                    .Cells["id_reservasi"].Value.ToString();
+            string idReservasi = guna2DataGridView1.Rows[e.RowIndex].Cells["colID"].Value.ToString();
+            string colName = guna2DataGridView1.Columns[e.ColumnIndex].Name;
 
-            if (guna2DataGridView1.Columns[e.ColumnIndex].Name == "Edit")
+            if (colName == "colEdit")
             {
                 new EditReservasi(idReservasi).ShowDialog();
                 LoadDataReservasi();
             }
-            else if (guna2DataGridView1.Columns[e.ColumnIndex].Name == "Delete")
+            else if (colName == "colDelete")
             {
-                DeleteReservasi(idReservasi);
-                LoadDataReservasi();
+                if (MessageBox.Show("Hapus reservasi ini?", "Konfirmasi", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    try
+                    {
+                        using (MySqlConnection conn = Koneksi.GetConnection())
+                        {
+                            conn.Open();
+                            string cek = "SELECT COUNT(*) FROM transaksi WHERE id_reservasi = @id";
+                            MySqlCommand cmdCek = new MySqlCommand(cek, conn);
+                            cmdCek.Parameters.AddWithValue("@id", idReservasi);
+                            if (Convert.ToInt32(cmdCek.ExecuteScalar()) > 0)
+                            {
+                                MessageBox.Show("Tidak bisa hapus karena sudah ada transaksi."); return;
+                            }
+                            new MySqlCommand($"DELETE FROM reservasi WHERE id_reservasi='{idReservasi}'", conn).ExecuteNonQuery();
+                        }
+                        LoadDataReservasi();
+                    }
+                    catch (Exception ex) { MessageBox.Show("Gagal: " + ex.Message); }
+                }
             }
         }
 
         // ============================================================
-        // DELETE RESERVASI
+        // 🔥 NAMA METHOD DISESUAIKAN DENGAN DESIGNER
         // ============================================================
-        private void DeleteReservasi(string id)
+
+        private void guna2DariTanggal_ValueChanged(object sender, EventArgs e)
         {
-            using (MySqlConnection conn = Koneksi.GetConnection())
-            {
-                conn.Open();
-                string cek = "SELECT COUNT(*) FROM transaksi_pembayaran WHERE id_reservasi = @id";
-                MySqlCommand cmdCek = new MySqlCommand(cek, conn);
-                cmdCek.Parameters.AddWithValue("@id", id);
+            FilterData();
+        }
 
-                int count = Convert.ToInt32(cmdCek.ExecuteScalar());
-                if (count > 0)
+        private void guna2SampaiTanggal_ValueChanged(object sender, EventArgs e)
+        {
+            FilterData();
+        }
+
+        private void guna2Cari_TextChanged(object sender, EventArgs e)
+        {
+            FilterData();
+        }
+
+        private void FilterData()
+        {
+            if (dtReservasi == null) return;
+
+            string search = guna2Cari.Text.Trim();
+            string dari = guna2DariTanggal.Value.ToString("yyyy-MM-dd");
+            string sampai = guna2SampaiTanggal.Value.ToString("yyyy-MM-dd");
+
+            DataView dv = dtReservasi.DefaultView;
+            string filter = $"nama_tamu LIKE '%{search}%' AND check_in >= '{dari}' AND check_out <= '{sampai}'";
+
+            dv.RowFilter = filter;
+            DisplayData(dv.ToTable());
+        }
+
+        private void guna2Reset_Click(object sender, EventArgs e)
+        {
+            guna2Cari.Text = "";
+            guna2DariTanggal.Value = DateTime.Now.AddMonths(-1);
+            guna2SampaiTanggal.Value = DateTime.Now.AddMonths(1);
+            DisplayData(dtReservasi);
+        }
+
+        private void guna2ExportExcel_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SaveFileDialog save = new SaveFileDialog();
+                save.Filter = "Excel File (*.xlsx)|*.xlsx";
+                save.FileName = "Data_Reservasi.xlsx";
+
+                if (save.ShowDialog() == DialogResult.OK)
                 {
-                    MessageBox.Show("Reservasi ini sudah memiliki transaksi sehingga tidak dapat dihapus.",
-                        "Tidak Bisa Hapus", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    using (XLWorkbook wb = new XLWorkbook())
+                    {
+                        DataTable dtExport = new DataTable("Reservasi");
+                        dtExport.Columns.Add("No");
+                        dtExport.Columns.Add("Nama Tamu");
+                        dtExport.Columns.Add("Tipe Kamar");
+                        dtExport.Columns.Add("No Kamar");
+                        dtExport.Columns.Add("Check In");
+                        dtExport.Columns.Add("Check Out");
+                        dtExport.Columns.Add("Status");
+
+                        foreach (DataGridViewRow row in guna2DataGridView1.Rows)
+                        {
+                            dtExport.Rows.Add(
+                                row.Cells["colNo"].Value, row.Cells["colTamu"].Value,
+                                row.Cells["colTipe"].Value, row.Cells["colNoKamar"].Value,
+                                row.Cells["colIn"].Value, row.Cells["colOut"].Value,
+                                row.Cells["colStatus"].Value
+                            );
+                        }
+
+                        var ws = wb.Worksheets.Add(dtExport);
+                        ws.Columns().AdjustToContents();
+                        wb.SaveAs(save.FileName);
+                    }
+                    MessageBox.Show("Export berhasil!");
                 }
             }
-
-            DialogResult result = MessageBox.Show("Hapus reservasi ini?", "Konfirmasi", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                using (MySqlConnection conn = Koneksi.GetConnection())
-                {
-                    conn.Open();
-
-                    MySqlCommand cmd = new MySqlCommand("DELETE FROM reservasi WHERE id_reservasi=@id", conn);
-                    cmd.Parameters.AddWithValue("@id", id);
-                    cmd.ExecuteNonQuery();
-                }
-
-                MessageBox.Show("Data berhasil dihapus!");
-            }
+            catch (Exception ex) { MessageBox.Show("Gagal export: " + ex.Message); }
         }
 
         private void guna2Tambah_Click(object sender, EventArgs e)
@@ -206,95 +365,20 @@ namespace Pemesanan_Hotel_Terbaru.Resepsionis
             LoadDataReservasi();
         }
 
-        // ============================================================
-        //  FITUR PENCARIAN
-        // ============================================================
-        private void guna2Cari_TextChanged(object sender, EventArgs e)
+        // NAVIGASI
+        private void PindahForm(Form targetForm)
         {
-            if (dtReservasi == null) return;
-
-            string search = guna2Cari.Text.Trim();
-            DataView dv = dtReservasi.DefaultView;
-
-            if (string.IsNullOrEmpty(search))
-                dv.RowFilter = "";
-            else
-                dv.RowFilter = $"nama_tamu LIKE '%{search}%'";
-
-            guna2DataGridView1.DataSource = dv;
+            targetForm.WindowState = FormWindowState.Maximized;
+            targetForm.Show();
+            this.Hide();
         }
 
-        // ============================================================
-        // FILTER TANGGAL
-        // ============================================================
-        private void ApplyDateFilter()
+        private void Logout()
         {
-            if (dtReservasi == null) return;
-
-            DateTime dari = guna2DariTanggal.Value.Date;
-            DateTime sampai = guna2SampaiTanggal.Value.Date;
-
-            DataView dv = dtReservasi.DefaultView;
-            dv.RowFilter = $"check_in >= '#{dari:yyyy-MM-dd}#' AND check_out <= '#{sampai:yyyy-MM-dd}#'";
-
-            guna2DataGridView1.DataSource = dv;
-        }
-
-        private void guna2DariTanggal_ValueChanged(object sender, EventArgs e)
-        {
-            ApplyDateFilter();
-        }
-
-        private void guna2SampaiTanggal_ValueChanged(object sender, EventArgs e)
-        {
-            ApplyDateFilter();
-        }
-
-        // ============================================================
-        // RESET FILTER
-        // ============================================================
-        private void guna2Reset_Click(object sender, EventArgs e)
-        {
-            guna2Cari.Text = "";
-            guna2DariTanggal.Value = DateTime.Now;
-            guna2SampaiTanggal.Value = DateTime.Now;
-
-            dtReservasi.DefaultView.RowFilter = "";
-            guna2DataGridView1.DataSource = dtReservasi;
-        }
-
-        // ============================================================
-        // EXPORT EXCEL
-        // ============================================================
-        private void guna2ExportExcel_Click(object sender, EventArgs e)
-        {
-            try
+            if (MessageBox.Show("Logout?", "Konfirmasi", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                SaveFileDialog save = new SaveFileDialog();
-                save.Filter = "Excel File (*.xlsx)|*.xlsx";
-                save.FileName = "Data_Reservasi_Resepsionis.xlsx";
-
-                if (save.ShowDialog() == DialogResult.OK)
-                {
-                    using (XLWorkbook wb = new XLWorkbook())
-                    {
-                        var ws = wb.Worksheets.Add(dtReservasi, "Reservasi");
-
-                        ws.Column(5).Style.DateFormat.Format = "dd MMMM yyyy";
-                        ws.Column(6).Style.DateFormat.Format = "dd MMMM yyyy";
-
-                        ws.Columns().AdjustToContents();
-                        wb.SaveAs(save.FileName);
-                    }
-
-                    MessageBox.Show("Export berhasil!", "Sukses");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal export: " + ex.Message);
+                this.Hide(); new Login().Show();
             }
         }
     }
 }
-

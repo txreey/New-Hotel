@@ -86,3 +86,92 @@ C:\Users\Acer\source\repos\Pemesanan Hotel Terbaru\Pemesanan Hotel Terbaru\bin\D
 C:\Users\Acer\source\repos\Pemesanan Hotel Terbaru\Pemesanan Hotel Terbaru\bin\Debug\RBush.xml
 C:\Users\Acer\source\repos\Pemesanan Hotel Terbaru\Pemesanan Hotel Terbaru\bin\Debug\SixLabors.Fonts.xml
 C:\Users\Acer\source\repos\Pemesanan Hotel Terbaru\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.LaporanKeuangan2.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Pemesanan Hotel Terbaru.exe.config
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Pemesanan Hotel Terbaru.exe
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Pemesanan Hotel Terbaru.pdb
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ClosedXML.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ClosedXML.Parser.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ExcelNumberFormat.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Google.Protobuf.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Guna.UI2.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\MySql.Data.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\RBush.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\SixLabors.Fonts.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Buffers.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.IO.Pipelines.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Memory.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ZstdSharp.dll
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ClosedXML.pdb
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ClosedXML.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ClosedXML.Parser.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\ExcelNumberFormat.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Google.Protobuf.pdb
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Google.Protobuf.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\MySql.Data.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\RBush.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\SixLabors.Fonts.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Buffers.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.IO.Pipelines.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Memory.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.csproj.AssemblyReference.cache
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.exe.config
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.DashboardAdmin.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.DataKamarA.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.DataReservasi.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.DataTamuA.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.DataUser.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.EditKamar.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.EditUser.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.LaporanKeuangan2.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.LaporanTransaksiA.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.TambahKamar.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Admin.TambahUser.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Login.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.DashboardOwner.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.DataKamarO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.DataReservasiO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.DataTamuO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.DataUserO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.EditUserO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.LaporanKeuangan.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.LaporanTransaksiO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Owner.TambahUserO.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Properties.Resources.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.DashboardResepsionis.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.DataKamarR.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.DataTamuR.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.EditReservasi.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.LaporanTransaksiR.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.ModalPembayaran.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.Reservasi.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.TambahReservasi.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan_Hotel_Terbaru.Resepsionis.TransaksiPembayaran.resources
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.csproj.GenerateResource.cache
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.csproj.CoreCompileInputs.cache
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesana.686A97CF.Up2Date
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.exe
+C:\Users\MyBook Hype AMD\source\repos\New-Hotel\Pemesanan Hotel Terbaru\obj\Debug\Pemesanan Hotel Terbaru.pdb
